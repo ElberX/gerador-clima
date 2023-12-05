@@ -57,7 +57,7 @@ const ComponenteClima = () => {
 
       {dadosClima && (
         <div>
-          <h2>{dadosClima.name}</h2>
+          <h2 className="retorno-clima">{dadosClima.name}</h2>
           <p className="retorno-clima">
             Temperatura: {temperaturaEmCelsius} °C
           </p>
