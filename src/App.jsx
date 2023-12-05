@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 const ComponenteClima = () => {
-  // Cria um estado para armazenar o nome da cidade, "cidade" é o estado atual e "setCidade" é a função para atualizar esse estado
+ 
   const [cidade, setCidade] = useState('')
   const [dadosClima, setDadosClima] = useState(null)
   const [erro, setErro] = useState(null)
